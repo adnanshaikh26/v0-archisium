@@ -50,10 +50,10 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-medium mb-4">Contact</h3>
             <ul className="space-y-2 text-sm">
-              <li className="text-muted-foreground">123 Architecture Avenue</li>
-              <li className="text-muted-foreground">New York, NY 10001</li>
-              <li className="text-muted-foreground">info@archisium.com</li>
-              <li className="text-muted-foreground">+1 (555) 123-4567</li>
+              <li className="text-muted-foreground">First Floor, B3, Neelay Apartment, Diamond Bakery Ln, Fatima Nagar, Wanowrie,</li>
+              <li className="text-muted-foreground"> Pune, Maharashtra 411001 </li>
+              <li className="text-muted-foreground">thearchisium@gmail.com</li>
+              <li className="text-muted-foreground">+91 9890601893</li>
             </ul>
           </div>
 

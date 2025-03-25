@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { projectsData } from "@/lib/data"
 
 // Project categories
-const categories = ["All", "Residential", "Commercial", "Cultural", "Sustainable"]
+const categories = ["All", "Residential", "Commercial", "Cultural", "Sustainable","Industrial"]
 
 export default function ProjectsPage() {
   const [activeCategory, setActiveCategory] = useState("All")

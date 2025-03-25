@@ -62,7 +62,7 @@ export default function Navbar() {
                 href={item.path}
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-primary relative py-2",
-                  pathname === item.path ? "text-primary" : "text-muted-foreground",
+                  pathname === item.path ? "text-primary" : "text-gray-800",
                 )}
               >
                 {item.name}

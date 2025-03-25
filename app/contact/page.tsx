@@ -80,11 +80,11 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-medium">Our Office</h3>
                     <address className="not-italic text-muted-foreground">
-                      123 Architecture Avenue
+                    First Floor, B3, Neelay Apartment, Diamond Bakery Ln,
                       <br />
-                      New York, NY 10001
+                      above Grace Beauty Parlor, Fatima Nagar, Wanowrie, 
                       <br />
-                      United States
+                      Pune, Maharashtra 411001
                     </address>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium">Email Us</h3>
-                    <p className="text-muted-foreground">info@archisium.com</p>
+                    <p className="text-muted-foreground">thearchisium@gmail.com</p>
                   </div>
                 </div>
 
@@ -105,14 +105,14 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium">Call Us</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 9890601893</p>
                   </div>
                 </div>
               </div>
 
               {/* Google Map */}
               <div className="aspect-video rounded-lg overflow-hidden">
-                <iframe
+                {/* <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.11976397304605!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1647043091017!5m2!1sen!2s"
                   width="100%"
                   height="100%"
@@ -121,7 +121,8 @@ export default function ContactPage() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="The Archisium Office Location"
-                ></iframe>
+                ></iframe> */}
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242119.67260148426!2d73.65788692812498!3d18.52348384312652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1c674bf5b07%3A0x65b0cf699abbaec0!2sThe%20Archisium!5e0!3m2!1sen!2sin!4v1742892526192!5m2!1sen!2sin" width="650" height="350" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </motion.div>
 

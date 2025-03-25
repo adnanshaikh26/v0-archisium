@@ -8,29 +8,29 @@ import { ArrowRight } from "lucide-react"
 
 const teamMembers = [
   {
-    name: "Sarah Johnson",
+    name: "Zoher Siamwala",
     role: "Principal Architect",
-    bio: "With over 15 years of experience, Sarah leads our design team with a focus on sustainable urban architecture.",
-    image: "/placeholder.svg?height=400&width=400",
+    bio: "With over 15 years of experience, Zoher leads our design team with a focus on sustainable urban architecture.",
+    image: "/images/siamwala.jpg",
   },
-  {
-    name: "David Chen",
-    role: "Design Director",
-    bio: "David brings a unique perspective to each project, blending modern aesthetics with functional design principles.",
-    image: "/placeholder.svg?height=400&width=400",
-  },
-  {
-    name: "Maria Rodriguez",
-    role: "Project Manager",
-    bio: "Maria ensures that every project is delivered on time and exceeds client expectations through meticulous planning.",
-    image: "/placeholder.svg?height=400&width=400",
-  },
-  {
-    name: "James Wilson",
-    role: "Sustainability Specialist",
-    bio: "James focuses on incorporating eco-friendly solutions and sustainable materials into our architectural designs.",
-    image: "/placeholder.svg?height=400&width=400",
-  },
+  // {
+  //   name: "David Chen",
+  //   role: "Design Director",
+  //   bio: "David brings a unique perspective to each project, blending modern aesthetics with functional design principles.",
+  //   image: "/placeholder.svg?height=400&width=400",
+  // },
+  // {
+  //   name: "Maria Rodriguez",
+  //   role: "Project Manager",
+  //   bio: "Maria ensures that every project is delivered on time and exceeds client expectations through meticulous planning.",
+  //   image: "/placeholder.svg?height=400&width=400",
+  // },
+  // {
+  //   name: "James Wilson",
+  //   role: "Sustainability Specialist",
+  //   bio: "James focuses on incorporating eco-friendly solutions and sustainable materials into our architectural designs.",
+  //   image: "/placeholder.svg?height=400&width=400",
+  // },
 ]
 
 export default function AboutPage() {
@@ -46,7 +46,7 @@ export default function AboutPage() {
             className="max-w-3xl mx-auto text-center"
           >
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6">About The Archisium</h1>
-            <p className="text-xl text-muted-foreground">Crafting innovative architectural solutions since 2005.</p>
+            <p className="text-xl text-muted-foreground">Founded in the mid-1960s by the visionary architect Yusuf Siamwala, The Archisium is a premier architectural consultancy firm based in Mumbai, Maharashtra. With a legacy of excellence spanning over five decades.</p>
           </motion.div>
         </div>
       </section>
@@ -63,7 +63,8 @@ export default function AboutPage() {
               className="relative aspect-square"
             >
               <Image
-                src="/placeholder.svg?height=800&width=800"
+                // src="/placeholder.svg?height=800&width=800"
+                src="/images/azamImg.jpeg"
                 alt="The Archisium studio"
                 fill
                 className="object-cover rounded-lg"
@@ -76,20 +77,22 @@ export default function AboutPage() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">Our Expertise</h2>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <p>
-                  Founded in 2005, The Archisium began as a small studio with a big vision: to create architectural
-                  designs that harmoniously blend innovation, functionality, and sustainability.
+                With a team of seasoned professionals, we deliver projects that encompass:
                 </p>
                 <p>
-                  Over the years, we've grown into a diverse team of architects, designers, and planners united by our
-                  passion for transformative architecture. We believe that thoughtful design has the power to enhance
-                  lives and communities.
+                Residential Townships: Large-scale townships in India and internationally (e.g., Aga Jari, Iran).
                 </p>
                 <p>
-                  Today, our portfolio spans residential, commercial, and public projects across the globe, each
-                  reflecting our commitment to excellence and our clients' unique visions.
+                Commercial and Industrial Developments: Office towers, guest houses, and factories.
+                </p>
+                <p>
+                Restoration Projects: Revitalizing historic structures and landscapes.
+                </p>
+                <p>
+                Educational Facilities: Campus planning for institutions like Miami University, USA.
                 </p>
               </div>
             </motion.div>
@@ -111,6 +114,7 @@ export default function AboutPage() {
             <p className="text-lg text-muted-foreground">
               At The Archisium, we believe that great architecture goes beyond aesthetics. It's about creating spaces
               that inspire, function beautifully, and stand the test of time.
+              
             </p>
           </motion.div>
 

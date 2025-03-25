@@ -172,7 +172,7 @@ export default function ServicesPage() {
               className="relative aspect-[3/4]"
             >
               <Image
-                src="/placeholder.svg?height=900&width=675"
+                src="/images/processImg.jpg"
                 alt="Our design process"
                 fill
                 className="object-cover rounded-lg"

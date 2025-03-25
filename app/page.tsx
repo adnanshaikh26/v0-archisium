@@ -25,11 +25,12 @@ export default function HomePage() {
       <section ref={ref} className="relative h-screen flex items-center justify-center overflow-hidden">
         <motion.div style={{ y, opacity }} className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            // src="/placeholder.svg?height=1080&width=1920"
+            src="/images/homeImg.jpg"
             alt="Modern architecture"
             fill
             priority
-            className="object-cover"
+            className="object-cover brightness-90"
           />
           <div className="absolute inset-0 bg-black/40" />
         </motion.div>
@@ -176,7 +177,8 @@ export default function HomePage() {
               className="relative aspect-square"
             >
               <Image
-                src="/placeholder.svg?height=800&width=800"
+                // src="/placeholder.svg?height=800&width=800"
+                src="/images/servicesImg.jpg"
                 alt="Our services"
                 fill
                 className="object-cover rounded-lg"
